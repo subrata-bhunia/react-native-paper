@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "name": "Launch via NPM",
+      "request": "launch",
+      "runtimeArgs": [
+        "run-script",
+        "debug"
+      ],
+      "runtimeExecutable": "npm",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "type": "node"
+    },
+    {
+      "type": "react-native-ide",
+      "request": "launch",
+      "name": "React Native IDE panel",
+      "android": {},
+      "isExpo": false
+    }
+  ]
+}
